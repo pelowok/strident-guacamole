@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,500);
+
+body{
+    padding-top: 0;
+    background: url(../images/rainbow.jpg) fixed repeat center 0;
+}
+.container-fluid{
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: rgba(0,0,0,0);
+    color: ghostwhite;
+    padding-top: 15%;
+    text-align: center;
+
+}
+
+.marketing{
+    color: ghostwhite;
+}
+
+
+#heroimg {
+    background: url(../images/headshot.jpg) no-repeat center center;
+    padding-top: 5px;
+    background-position: 55% center;
+    /*min-height: 300px;*/
+    /*width: 100%;*/
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.my-container {
+    font-family: 'Lato', 'Roboto', sans-serif;
+    position: relative;
+    /*background: rgba(0, 0, 0, 0.1);*/
+    /*background: rgba(75, 114, 87, 0.6);*/
+    overflow: hidden;
+}
+.my-container h1{
+    font-size: 4em;
+}
+
+/* HEADER SECTION */
+#h {
+    background: url(../images/headshot3.jpg) no-repeat center top;
+    padding-top: 5px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: ghostwhite;
+}
+
+#h .logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-bottom: 150px;
+}
+
+#h .logo h2{
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#h h3 {
+    margin-top: 10px;
+}
+
+#h i {
+    font-size: 50px;
+}
